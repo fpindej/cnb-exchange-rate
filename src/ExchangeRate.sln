@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRate.CNB.Domain", "ExchangeRate.CNB.Domain\ExchangeRate.CNB.Domain.csproj", "{C7AC9E78-543A-406D-B25A-3835F1AA31D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRate.CNB.Client", "ExchangeRate.CNB.Client\ExchangeRate.CNB.Client.csproj", "{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,8 +28,13 @@ Global
 		{C7AC9E78-543A-406D-B25A-3835F1AA31D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7AC9E78-543A-406D-B25A-3835F1AA31D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7AC9E78-543A-406D-B25A-3835F1AA31D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C7AC9E78-543A-406D-B25A-3835F1AA31D5} = {0C9C6924-0A82-4ECE-B46D-056D752962AF}
+		{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B} = {0C9C6924-0A82-4ECE-B46D-056D752962AF}
 	EndGlobalSection
 EndGlobal
