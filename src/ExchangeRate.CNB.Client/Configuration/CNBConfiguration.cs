@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using JetBrains.Annotations;
 
-namespace ExchangeRate.CNB.Client;
+namespace ExchangeRate.CNB.Client.Configuration;
 
 public class CNBConfiguration
 {

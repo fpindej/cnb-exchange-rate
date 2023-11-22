@@ -1,4 +1,4 @@
-namespace ExchangeRate.CNB.Domain.Exceptions;
+namespace ExchangeRate.CNB.Client.Exceptions;
 
 public class EmptyResultSetException : Exception
 {

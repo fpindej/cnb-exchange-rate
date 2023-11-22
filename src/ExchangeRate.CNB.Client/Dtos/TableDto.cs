@@ -1,6 +1,6 @@
 using System.Xml.Serialization;
 
-namespace ExchangeRate.CNB.Domain.Dtos;
+namespace ExchangeRate.CNB.Client.Dtos;
 
 [XmlRoot(ElementName = "tabulka")]
 public class TableDto

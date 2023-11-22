@@ -1,10 +1,7 @@
 using System.Net.Mime;
 using ExchangeRate.CNB.Client;
-using ExchangeRate.CNB.Domain;
-using ExchangeRate.CNB.Domain.Services;
 using ExchangeRate.WebApi.Dtos;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
 
 namespace ExchangeRate.WebApi.Controllers;
 

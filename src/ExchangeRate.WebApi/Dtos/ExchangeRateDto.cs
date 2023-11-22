@@ -2,7 +2,7 @@ using ExchangeRate.Domain.Entities;
 
 namespace ExchangeRate.WebApi.Dtos;
 
-public class ExchangeRateDto
+internal class ExchangeRateDto
 {
     public Currency SourceCurrengy { get; set; }
     

@@ -1,13 +1,11 @@
 using System.Net;
 using ExchangeRate.CNB.Client.Services;
-using ExchangeRate.CNB.Domain;
-using ExchangeRate.CNB.Domain.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Polly;
 using Polly.Extensions.Http;
 
-namespace ExchangeRate.CNB.Client;
+namespace ExchangeRate.CNB.Client.Configuration;
 
 public static class ServiceCollectionExtensions
 {

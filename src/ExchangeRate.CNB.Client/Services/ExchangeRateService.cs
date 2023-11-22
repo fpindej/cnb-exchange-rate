@@ -1,6 +1,5 @@
 using System.Net;
-using ExchangeRate.CNB.Domain.Services;
-using Microsoft.Extensions.Configuration;
+using ExchangeRate.CNB.Client.Configuration;
 using Microsoft.Extensions.Options;
 
 namespace ExchangeRate.CNB.Client.Services;

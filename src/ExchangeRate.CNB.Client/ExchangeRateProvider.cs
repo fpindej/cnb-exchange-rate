@@ -1,7 +1,7 @@
-using ExchangeRate.CNB.Domain;
-using ExchangeRate.CNB.Domain.Dtos;
-using ExchangeRate.CNB.Domain.Exceptions;
-using ExchangeRate.CNB.Domain.Services;
+using ExchangeRate.CNB.Client.Configuration;
+using ExchangeRate.CNB.Client.Dtos;
+using ExchangeRate.CNB.Client.Exceptions;
+using ExchangeRate.CNB.Client.Services;
 using ExchangeRate.Common;
 using ExchangeRate.Common.Exceptions;
 using ExchangeRate.Domain.Entities;

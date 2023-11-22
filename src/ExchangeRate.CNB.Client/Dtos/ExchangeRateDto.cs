@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.Xml.Serialization;
 
-namespace ExchangeRate.CNB.Domain.Dtos;
+namespace ExchangeRate.CNB.Client.Dtos;
 
 [XmlRoot(ElementName = "kurzy")]
 public class ExchangeRateDto

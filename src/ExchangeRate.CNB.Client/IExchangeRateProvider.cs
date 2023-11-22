@@ -1,4 +1,4 @@
-namespace ExchangeRate.CNB.Domain;
+namespace ExchangeRate.CNB.Client;
 
 /// <summary>
 ///     Provider for Exchange Rate from CNB

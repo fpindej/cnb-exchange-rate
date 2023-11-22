@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace ExchangeRate.CNB.Domain;
+namespace ExchangeRate.CNB.Client;
 
 internal static class CNBConstants
 {

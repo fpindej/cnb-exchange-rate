@@ -1,4 +1,4 @@
-namespace ExchangeRate.CNB.Domain.Services;
+namespace ExchangeRate.CNB.Client.Services;
 
 /// <summary>
 /// Service to work with HttpClient from CNB baseUrl source

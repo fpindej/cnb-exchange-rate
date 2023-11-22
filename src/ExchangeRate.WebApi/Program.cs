@@ -1,4 +1,3 @@
-using ExchangeRate.WebApi.Extensions;
 using Serilog;
 using LoggerConfigurationExtensions = ExchangeRate.WebApi.Extensions.LoggerConfigurationExtensions;
 

@@ -1,4 +1,4 @@
-using ExchangeRate.CNB.Client;
+using ExchangeRate.CNB.Client.Configuration;
 using Serilog;
 
 namespace ExchangeRate.WebApi;
