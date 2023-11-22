@@ -5,6 +5,13 @@ namespace ExchangeRate.WebApi;
 
 public class Startup
 {
+    private readonly IConfiguration _configuration;
+
+    public Startup(IConfiguration configuration)
+    {
+        _configuration = configuration;
+    }
+
     public void ConfigureServices(IServiceCollection services)
     {
         Log.Debug("ConfigureServices => Setting AddControllers");
@@ -20,7 +27,7 @@ public class Startup
         services.AddSwaggerGen();
 
         Log.Debug("ConfigureServices => Setting AddCnbClient");
-        services.AddCnbClient();
+        services.AddCnbClient(_configuration);
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

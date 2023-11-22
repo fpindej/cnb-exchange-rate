@@ -3,7 +3,7 @@ namespace ExchangeRate.CNB.Domain.Services;
 /// <summary>
 /// Service to work with HttpClient from CNB baseUrl source
 /// </summary>
-public interface ICNBExchangeRateService
+public interface IExchangeRateService
 {
     /// <summary>
     /// Fetches CNB exchange rate data via http client
