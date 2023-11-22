@@ -22,4 +22,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ExchangeRate.CNB.Client\ExchangeRate.CNB.Client.csproj" />
+    </ItemGroup>
+
 </Project>

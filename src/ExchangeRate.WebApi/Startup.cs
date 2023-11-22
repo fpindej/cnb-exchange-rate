@@ -1,3 +1,4 @@
+using ExchangeRate.CNB.Client;
 using Serilog;
 
 namespace ExchangeRate.WebApi;
@@ -17,6 +18,9 @@ public class Startup
         
         Log.Debug("ConfigureServices => Setting AddSwaggerGen");
         services.AddSwaggerGen();
+
+        Log.Debug("ConfigureServices => Setting AddCnbClient");
+        services.AddCnbClient();
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
