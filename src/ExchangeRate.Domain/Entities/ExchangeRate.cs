@@ -2,18 +2,16 @@ namespace ExchangeRate.Domain.Entities;
 
 public class ExchangeRate
 {
-    private readonly Currency _sourceCurrency;
+    public Currency SourceCurrency { get; }
 
-    private readonly Currency _targetCurrency;
+    public Currency TargetCurrency { get; }
 
-    private readonly decimal _value;
+    public decimal Amount { get; }
     
-    public ExchangeRate(Currency sourceCurrency, Currency targetCurrency, decimal value)
+    public ExchangeRate(Currency sourceCurrency, Currency targetCurrency, decimal amount)
     {
-        _sourceCurrency = sourceCurrency;
-        _targetCurrency = targetCurrency;
-        _value = value;
+        SourceCurrency = sourceCurrency;
+        TargetCurrency = targetCurrency;
+        Amount = amount;
     }
-    
-    public override string ToString() => $"{_sourceCurrency}/{_targetCurrency}={_value}";
 }

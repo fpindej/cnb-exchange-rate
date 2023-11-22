@@ -1,5 +1,6 @@
 using System.Net;
 using ExchangeRate.CNB.Client.Services;
+using ExchangeRate.CNB.Domain;
 using ExchangeRate.CNB.Domain.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,6 +17,8 @@ public static class ServiceCollectionExtensions
             .BindConfiguration(CNBConfiguration.SectionName)
             .ValidateDataAnnotations()
             .ValidateOnStart();
+
+        services.AddScoped<IExchangeRateProvider, ExchangeRateProvider>();
 
         var config = configuration.GetSection(CNBConfiguration.SectionName).Get<CNBConfiguration>() ??
                      throw new Exception("Configuration was not found.");

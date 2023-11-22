@@ -5,15 +5,15 @@ public sealed class Currency
     /// <summary>
     ///     Three-letter ISO 4217 code of the currency.
     /// </summary>
-    private readonly string _code;
+    public string Code { get; }
     
     public Currency(string code)
     {
-        _code = code;
+        Code = code;
     }
 
     public override string ToString()
     {
-        return _code;
+        return Code;
     }
 }

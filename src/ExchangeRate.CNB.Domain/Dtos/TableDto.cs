@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 namespace ExchangeRate.CNB.Domain.Dtos;
 
 [XmlRoot(ElementName = "tabulka")]
-public class TableDtos
+public class TableDto
 {
     [XmlElement(ElementName = "radek")]
     public List<RowDto> Rows { get; set; } = null!;

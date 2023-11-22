@@ -7,7 +7,7 @@ namespace ExchangeRate.CNB.Domain.Dtos;
 public class ExchangeRateDto
 {
     [XmlElement(ElementName = "tabulka")]
-    public TableDtos TableDtos { get; set; } = null!;
+    public TableDto Tables { get; set; } = null!;
 
     [XmlAttribute(AttributeName = "banka")]
     public string Bank { get; set; } = null!;

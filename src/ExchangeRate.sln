@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRate.CNB.Domain", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRate.CNB.Client", "ExchangeRate.CNB.Client\ExchangeRate.CNB.Client.csproj", "{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRate.Common", "ExchangeRate.Common\ExchangeRate.Common.csproj", "{A40F41F0-A124-489C-AA80-CED6BA1ED3BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,9 +34,14 @@ Global
 		{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40F41F0-A124-489C-AA80-CED6BA1ED3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40F41F0-A124-489C-AA80-CED6BA1ED3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40F41F0-A124-489C-AA80-CED6BA1ED3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40F41F0-A124-489C-AA80-CED6BA1ED3BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C7AC9E78-543A-406D-B25A-3835F1AA31D5} = {0C9C6924-0A82-4ECE-B46D-056D752962AF}
 		{FF5E6FCC-4B71-4968-9776-9C6F2EBAAC5B} = {0C9C6924-0A82-4ECE-B46D-056D752962AF}
+		{A40F41F0-A124-489C-AA80-CED6BA1ED3BF} = {0C9C6924-0A82-4ECE-B46D-056D752962AF}
 	EndGlobalSection
 EndGlobal
