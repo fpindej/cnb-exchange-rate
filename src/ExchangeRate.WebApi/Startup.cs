@@ -37,21 +37,12 @@ public class Startup
             {
                 Log.Debug("Setting UseDeveloperExceptionPage");
                 app.UseDeveloperExceptionPage();
-                
-                Log.Debug("Setting cors => allow *");
-                app.UseCors(builder =>
-                {
-                    builder.SetIsOriginAllowed(_ => true);
-                    builder.AllowAnyHeader();
-                    builder.AllowAnyMethod();
-                });
             }
 
             Log.Debug("Setting UseSerilogRequestLogging");
             app.UseSerilogRequestLogging();
 
             Log.Debug("Setting cors => allow *");
-
             app.UseCors(builder =>
             {
                 builder.SetIsOriginAllowed(_ => true);
@@ -59,7 +50,7 @@ public class Startup
                 builder.AllowAnyMethod();
             });
 
-            Log.Debug("Setting UseOpenApi");
+            Log.Debug("Setting UseSwagger");
             app.UseSwagger();
 
             Log.Debug("Setting UseSwaggerUI");
