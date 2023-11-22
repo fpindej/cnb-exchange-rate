@@ -33,6 +33,11 @@ public class Program
     {
         return Host.CreateDefaultBuilder()
             .UseSerilog(Log.Logger, true)
+            .ConfigureAppConfiguration((_, config) =>
+            {
+                config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+                config.AddJsonFile("appsettings.Development.json", optional: false, reloadOnChange: true);
+            })
             .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
     }
 }
